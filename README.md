@@ -22,4 +22,4 @@
 <br />
 <br />
 
-# [ссылка на GitHub Pages](https://bukingemskiy.github.io/travel-of-Russia/)
+# [ссылка на GitHub Pages](https://bukingemskiy.github.io/russian-travel/)
