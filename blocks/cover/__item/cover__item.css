@@ -1,9 +1,9 @@
 .cover__item {
     min-height: 740px;
-    
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     box-sizing: border-box;
     position: relative;
     z-index: 1;
