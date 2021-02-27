@@ -10,8 +10,8 @@
     <header class="header indents">
       <img class="header__logo" src="./images/header-logo.svg" alt="логотип Россия">
       <ul class="header__links">
-      <li><a class="header__link header__link_condition_switch-on" target="_self" href="#">Ru</a></li>
-      <li><a class="header__link header__link_condition_switch-off" target="_blank" href="#">En</a></li>
+      <li class="header__list"><a class="header__link header__link_active" target="_self" href="#">Ru</a></li>
+      <li class="header__list"><a class="header__link" target="_blank" href="#">En</a></li>
       </ul>
     </header>
     <main class="content">
@@ -20,7 +20,7 @@
         <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
         <figure class="lead__figure">
         <img class="lead__image" src="./images/lead-polka.jpg" alt="маршрут от Пскова до Улан-Удэ на фоне вагона поезда">
-        <p class="lead__caption">ваша полка — верхняя</p>
+        <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
         </figure>
       </section>
       <section class="intro">
@@ -110,19 +110,17 @@
          </article>
       </section>
       <section class="cover">
-        <div class="cover__item">
         <a class="cover__link" target="_blank" href="https://stampsy.com/na-elektrichkakh-do-baikala"><h2 class="cover__title">До Байкала «на собаках»</h2>
         <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p></a>
-        </div>
       </section>
         </main>
         <footer class="footer indents">
             <nav><ul class="footer__links">
-              <li><a class="footer__link" target="_blank" href="https://yandex.ru/maps">Карты</a></li>
-              <li><a class="footer__link" target="_blank" href="https://yandex.ru/pogoda">Погода</a></li>
-              <li><a class="footer__link" target="_blank" href="https://rasp.yandex.ru">Расписание</a></li>
-              <li><a class="footer__link" target="_blank" href="https://calendar.yandex.ru">Календарь</a></li>
-              <li><a class="footer__link" target="_blank" href="https://travel.yandex.ru">Путешествия</a></li>
+              <li class="footer__list"><a class="footer__link" target="_blank" href="https://yandex.ru/maps">Карты</a></li>
+              <li class="footer__list"><a class="footer__link" target="_blank" href="https://yandex.ru/pogoda">Погода</a></li>
+              <li class="footer__list"><a class="footer__link" target="_blank" href="https://rasp.yandex.ru">Расписание</a></li>
+              <li class="footer__list"><a class="footer__link" target="_blank" href="https://calendar.yandex.ru">Календарь</a></li>
+              <li class="footer__list"><a class="footer__link" target="_blank" href="https://travel.yandex.ru">Путешествия</a></li>
             </ul></nav>
             <p class="footer__copyright">&copy; 2021. Владислав Аванькин</p>
         </footer>
