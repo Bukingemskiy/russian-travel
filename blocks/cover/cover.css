@@ -1,6 +1,7 @@
 .cover {
     background-image: url(./../../images/cover-trains.jpg);
     background-size: cover;
+    background-position: center;
     width: calc(100% - 96px);
     margin: 0 auto;
     justify-content: center;
