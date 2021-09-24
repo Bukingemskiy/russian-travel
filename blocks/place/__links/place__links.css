@@ -1,0 +1,11 @@
+.place__links {
+    align-self: end;
+    margin: 0;
+}
+
+@media screen and (max-width: 767px) {
+.place__links {
+    width: calc(100% - 32px);
+    margin: 0 auto;
+}
+}
